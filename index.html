@@ -3,16 +3,120 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>type</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./stule.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <div class="row">
+        <h1>Type Script intro</h1>
+        <p>
+          Spiegazione generica: TypeScript è un linguaggio di programmazione open source sviluppato
+          da Microsoft che estende JavaScript aggiungendo la possibilità di definire tipi di dati
+          statici. A differenza di JavaScript, che è un linguaggio di scripting interpretato,
+          TypeScript deve essere compilato in JavaScript per essere eseguito nel browser o sul
+          server. TypeScript risolve il problema della mancanza di tipizzazione statica in
+          JavaScript, il che può portare a errori difficili da individuare e correggere. TypeScript
+          è compatibile con tutte le librerie JavaScript esistenti e può essere utilizzato per
+          sviluppare applicazioni web, desktop e mobile
+        </p>
+        <p>
+          Il compilatore TS: Il compilatore TypeScript è un'utility che converte il codice
+          TypeScript in JavaScript. Il compilatore è necessario perché il browser o il server non
+          possono eseguire codice TypeScript direttamente. Per utilizzare il compilatore, è
+          necessario installare il pacchetto TypeScript tramite npm e quindi eseguire il comando di
+          compilazione.
+        </p>
+        <p>
+          La Type Inference: TypeScript supporta l'inferenza dei tipi, che significa che il
+          compilatore può dedurre automaticamente il tipo di una variabile in base al suo valore.
+          Questo può ridurre la quantità di codice che deve essere scritta manualmente e
+          semplificare la scrittura di codice.
+        </p>
+        <p>
+          Il tipo 'any': Il tipo 'any' è un tipo speciale in TypeScript che può rappresentare
+          qualsiasi tipo di dato. L'utilizzo del tipo 'any' può essere utile in alcune situazioni,
+          ma in generale è sconsigliato perché annulla i vantaggi della tipizzazione statica di
+          TypeScript.
+        </p>
+        <p>
+          Il tipo Union: Il tipo Union è un tipo di dato che rappresenta un valore che può essere di
+          uno qualsiasi di un insieme di tipi possibili. Ad esempio, un valore può essere di tipo
+          stringa o di tipo numero. Il tipo Union è utile per gestire dati che possono essere di più
+          di un tipo.
+        </p>
+        <p>
+          Il tipo Union: Il tipo Union è un tipo di dato che rappresenta un valore che può essere di
+          uno qualsiasi di un insieme di tipi possibili. Ad esempio, un valore può essere di tipo
+          stringa o di tipo numero. Il tipo Union è utile per gestire dati che possono essere di più
+          di un tipo.
+        </p>
+        <p>
+          Le Interfaces in TS: Le interfacce sono una caratteristica di TypeScript che permettono di
+          definire contratti per i tipi di dati. Le interfacce possono definire proprietà, metodi e
+          tipi di funzioni. Le interfacce sono utili per definire API o librerie e per aumentare la
+          sicurezza del codice evitando errori di tipo.
+        </p>
+      </div>
+
+      <div class="row myCarusel">
+        <div class="col-6">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="http://placekitten.com/200/200" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
